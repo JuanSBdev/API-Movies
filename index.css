@@ -1,0 +1,32 @@
+@import url('https://www.urbanfonts.com/download/?fontid=13625&token=53630592.61929963');
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    background-color: black;
+    color: white;
+    font-family: 'Spiderfont', sans-serif;
+
+}
+
+body{
+    background-color: black;
+    
+}
+img{
+    width: 16rem;
+    margin: 5%;
+}
+img:hover{
+    width: 17rem;
+    scale: 1.2;
+
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
