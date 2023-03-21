@@ -7,20 +7,19 @@ h1{
     font-size: 3rem;
     background-color: black;
     color: white;
-    font-family: 'Spiderfont', sans-serif;
 
 }
 
 body{
     background-color: black;
+    font-family: 'Spiderfont', sans-serif;
     
 }
 img{
-    width: 16rem;
+    width: 90%;
     margin: 5%;
 }
-img:hover{
-    width: 17rem;
+.divi:hover{
     scale: 1.2;
 
 }
@@ -28,5 +27,19 @@ img:hover{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-
+}
+.divi{
+    border: 3px solid red;
+    width: 20%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 2%;
+    padding: 1%;
+}
+h2{
+    color: white;
+}
+p{
+    color: white;
 }

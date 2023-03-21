@@ -16,7 +16,7 @@ const options = {
 		const img = elemen.i.imageUrl;
 		const cast = elemen.s ? elemen.s : '';
 		let card = `
-		  <div>
+		  <div class='divi'>
 			<h2> ${title} </h2>
 			<img src='${img} '> </img>
 			<p> ${cast} </p>
