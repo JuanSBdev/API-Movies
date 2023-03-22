@@ -5,7 +5,7 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 3rem;
-    background-color: black;
+    background-color: rgb(146, 1, 1);
     color: white;
 
 }
@@ -20,7 +20,7 @@ img{
     margin: 5%;
 }
 .divi:hover{
-    scale: 1.2;
+    scale: 1.1;
 
 }
 .container{
@@ -29,13 +29,14 @@ img{
     justify-content: center;
 }
 .divi{
-    border: 3px solid red;
+    border: 3px solid rgb(146, 1, 1);
     width: 20%;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     margin: 2%;
     padding: 1%;
+    background-color: rgb(32, 30, 30);
 }
 h2{
     color: white;
