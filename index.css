@@ -4,7 +4,7 @@ header{
     justify-content: center;
     width: 100%;
     margin-bottom: 30%;
-    margin-top: 10%;
+    margin-top: 6%;
 }
 header img{
     position: absolute;
@@ -24,6 +24,10 @@ header h1{
 }
 body{
     background-color: black ;
+}
+.carga{
+    display: flex;
+    justify-content: center;
 }
 .texto{
     display: flex;
@@ -50,4 +54,7 @@ margin-bottom: 5%;
     transform: scale(1.1);
     border: 2px solid rgb(199, 25, 25);
     z-index: 2;
+}
+h2{
+    color: aliceblue;
 }
