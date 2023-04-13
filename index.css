@@ -4,6 +4,7 @@ header{
     justify-content: center;
     width: 100%;
     margin-bottom: 30%;
+    margin-top: 10%;
 }
 header img{
     position: absolute;
@@ -37,17 +38,16 @@ display: flex;
 justify-content: center;
 flex-flow: row wrap;
 width:90%;
+margin-bottom: 5%;
 }
 .card{
     display: flex;
     margin: 1%;
     width: 20%;
+    border: 0px;
 }
 :hover.card{
     transform: scale(1.1);
-    border-color: black;
+    border: 2px solid rgb(199, 25, 25);
     z-index: 2;
-}
-.card h5{
-
 }
